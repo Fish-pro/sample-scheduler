@@ -10,12 +10,12 @@ linters:
 #    - errorlint
 #    - exportloopref
 #    - gci
-#    - goconst
+    - goconst
 #    - gocritic
 #    - gocyclo
     - gofmt
-#    - goimports
-#    - goprintffuncname
+    - goimports
+    - goprintffuncname
 #    - gosec
 #    - gosimple
 #    - govet
@@ -23,17 +23,17 @@ linters:
 #    - ineffassign
 #    - misspell
 #    - nakedret
-#    - nilerr
+    - nilerr
 #    - nolintlint
 #    - prealloc
 #    - revive
-#    - staticcheck
-#    - stylecheck
+    - staticcheck
+    - stylecheck
     - unconvert
-#    - unparam # need const some params
+    - unparam
     - unused
-#    - usestdlibvars
-#    - whitespace
+    - usestdlibvars
+    - whitespace
 
 linters-settings:
   gci:
