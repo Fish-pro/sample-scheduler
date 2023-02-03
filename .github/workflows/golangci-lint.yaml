@@ -12,7 +12,6 @@ jobs:
       matrix:
         working-directory:
           - pkg
-          - cmd
     steps:
       - uses: actions/setup-go@v3
         with:
