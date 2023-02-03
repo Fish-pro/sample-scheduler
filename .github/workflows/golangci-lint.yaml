@@ -3,7 +3,7 @@ on:
   pull_request:
     types: [opened, edited, synchronize, reopened]
     branches:
-      - develop
+      - main
 jobs:
   golangci:
     name: lint
